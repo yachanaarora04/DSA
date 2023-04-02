@@ -4,7 +4,6 @@ using namespace std;
 void DecimalToBinary(int n)
 {
     int dectobi[32];
-
     int i=0;
     while(n>0)
     {
@@ -17,7 +16,6 @@ void DecimalToBinary(int n)
         cout<<dectobi[j];
     }
 }
-
 int main()
 {
     int n;
